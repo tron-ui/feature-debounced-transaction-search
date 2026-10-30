@@ -235,11 +235,3 @@ These are manual verification scenarios. An automated test suite has not yet bee
 This project helped me practice writing reusable JavaScript utilities, managing asynchronous timers, separating filtering logic from DOM rendering, and handling edge cases in user interactions.
 
 The main learning outcome was implementing a reusable debounce function using closures and applying it to a practical transaction-search interface.
-
-## Project Status
-
-**Week 1 — Completed**
-
-Core implementation reviewed. Final behavior should be verified through the documented manual test cases.
-
-This project will serve as the foundation for future exercises involving asynchronous JavaScript, promises, API requests, cancellation, and response-order handling.
