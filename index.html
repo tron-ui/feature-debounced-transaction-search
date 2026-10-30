@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Search Widget</title>
+</head>
+
+<body>
+    <label for="search">Search: </label>
+    <input id="search" type="search" placeholder="Search Transaction" />
+    <p id="resultCount"></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Transaction ID</th>
+                <th>Merchant</th>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody id="transactionBody">
+            <!-- JavaScript will insert rows here -->
+        </tbody>
+    </table>
+</body>
+
+</html>
